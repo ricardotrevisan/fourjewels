@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+    web:
+        container_name: web
+        build: nginx/
+        ports: 
+            - 80:80
+        volumes: 
+            - ./nginx:/usr/share/nginx/html/
+    app:
+        container_name: app
+        build: app/
+        #enabling devtools connection
+        ports: 
+            - 8080:8080
+        # volumes:
+        #     - ./app/:/app
+ 
