@@ -10,15 +10,6 @@
             "projectName": "app",
             "args": "http://localhost:8080"
         },
-        {
-            "type": "java",
-            "name": "Spring Boot-AppApplication<app>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
-            "mainClass": "br.dev.quant.app.AppApplication",
-            "projectName": "app",
-            "args": ""
-        }
+        
     ]
 }

@@ -9,6 +9,7 @@ public class WelcomeController {
 
     @GetMapping(value=HELLO)
     public String getMessage(){
-        return "retorno da chamada...";
+        System.out.println("Recurso precisa ser retirado da imagem em Produção");
+        return "retorno devtools via live reload...";
     }
 }
